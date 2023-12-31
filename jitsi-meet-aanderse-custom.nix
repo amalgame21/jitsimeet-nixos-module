@@ -195,7 +195,6 @@ in
         modules_enabled = [
         # From original jitsi-meet.nix
         "bosh"
-        # "pubsub" # This makes the "Invite to Conversations" (mod_invites) menu not showing up in the Android Conversations app. Must not enable globally
         "ping"
         "roster"
         "saslauth"
