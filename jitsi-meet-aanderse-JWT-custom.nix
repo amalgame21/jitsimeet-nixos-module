@@ -195,7 +195,7 @@ in
         app_secret of JWT, can be used with {option}`environmentFiles` in prosody module
         '';
       };
-      allow_empty_token = mkEnableOption (lib.mdDoc "allow get it with no token");
+      allow_empty_token = mkEnableOption (lib.mdDoc "allow enter with no token");
     };
   };
 
